@@ -120,8 +120,8 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <div className="bg-gray-900 border border-gray-700 rounded-2xl p-6 mt-4">
                   <p className="text-white font-semibold mb-2">Email:</p>
-                  <a href="mailto:info@technexora.co" className="text-blue-400 hover:text-blue-300">
-                    info@technexora.co
+                  <a href="mailto:info@technexora.net" className="text-blue-400 hover:text-blue-300">
+                    info@technexora.net
                   </a>
                   <p className="text-white font-semibold mb-2 mt-4">Location:</p>
                   <p className="text-gray-300">Boston, MA, United States</p>

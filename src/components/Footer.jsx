@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./Logo.jsx";
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
+import { PhoneIcon } from "@heroicons/react/24/outline";
 
 export default function Footer() {
   const footerLinks = {
@@ -25,7 +27,7 @@ export default function Footer() {
     <footer className="bg-ink-950 border-t border-white/10 relative overflow-hidden">
       {/* Background gradient effect */}
       <div className="absolute inset-0 bg-gradient-to-b from-ink-900/50 to-ink-950 opacity-50" />
-      
+
       <div className="container-1920 py-5 md:py-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-5 mb-3 md:mb-4">
           {/* Company Info */}
@@ -37,11 +39,11 @@ export default function Footer() {
               Building high-quality websites and software for serious businesses.
               A long-term technology partner delivering secure, scalable digital products.
             </p>
-            
+
             {/* Contact Info */}
             <div className="space-y-1.5">
-              <a 
-                href="mailto:info@technexora.co" 
+              <a
+                href="mailto:info@technexora.net"
                 className="text-blue-400 hover:text-blue-300 text-base md:text-lg font-medium transition inline-flex items-center gap-2 group"
               >
                 <div className="w-7 h-7 rounded-lg bg-blue-500/10 flex items-center justify-center group-hover:bg-blue-500/20 transition">
@@ -49,9 +51,9 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                info@technexora.co
+                info@technexora.net
               </a>
-              
+
               <div className="flex items-center gap-2 text-white/70 text-base md:text-lg">
                 <div className="w-7 h-7 rounded-lg bg-white/5 flex items-center justify-center">
                   <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -123,8 +125,22 @@ export default function Footer() {
         <div className="pt-2 md:pt-3 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
             <p className="text-white/70 text-base md:text-lg font-medium">
-              © 2024 TechNexora. All rights reserved.
+              © 2026 TechNexora. All rights reserved.
             </p>
+            <a
+              href="mailto:info@technexora.net"
+              className="flex items-center gap-2 text-blue-400 hover:text-blue-300"
+            >
+              <EnvelopeIcon className="h-5 w-5" />
+              <span>info@technexora.net</span>
+            </a>
+            <a
+              href="tel:+13515294879"
+              className="flex items-center gap-2 text-blue-400 hover:text-blue-300"
+            >
+              <PhoneIcon className="h-4 w-4" />
+              <span>+1 (351) 529 4879</span>
+            </a>
             <div className="flex items-center gap-3">
               <span className="text-white/60 text-sm md:text-base">
                 NextGen Software Innovators

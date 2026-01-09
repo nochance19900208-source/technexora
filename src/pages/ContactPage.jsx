@@ -64,7 +64,7 @@ export default function ContactPage() {
       console.error('Form submission failed:', error);
       setSubmitStatus({ 
         type: 'error', 
-        message: error.message || 'Failed to send message. Please try again or contact us directly at info@technexora.co' 
+        message: error.message || 'Failed to send message. Please try again or contact us directly at info@technexora.net' 
       });
     } finally {
       setIsSubmitting(false);
@@ -111,8 +111,8 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div className="card rounded-2xl p-6">
                   <div className="text-white font-semibold mb-2">Email</div>
-                  <a href="mailto:info@technexora.co" className="text-blue-400 hover:text-blue-300">
-                    info@technexora.co
+                  <a href="mailto:info@technexora.net" className="text-blue-400 hover:text-blue-300">
+                    info@technexora.net
                   </a>
                 </div>
 
