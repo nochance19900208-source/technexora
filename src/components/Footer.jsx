@@ -135,11 +135,11 @@ export default function Footer() {
               <span>info@technexora.net</span>
             </a>
             <a
-              href="tel:+13515294879"
+              href="tel:+18578337936"
               className="flex items-center gap-2 text-blue-400 hover:text-blue-300"
             >
               <PhoneIcon className="h-4 w-4" />
-              <span>+1 (351) 529 4879</span>
+              <span>+1 (857) 833-7936</span>
             </a>
             <div className="flex items-center gap-3">
               <span className="text-white/60 text-sm md:text-base">
