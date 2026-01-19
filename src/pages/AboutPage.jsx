@@ -18,7 +18,7 @@ const teamMembers = [
     image: "/members/CTO.png"
   },
   {
-    name: "Henry Xu",
+    name: "Brent Holliman",
     role: "HR",
     image: "/members/HR.png"
   },
