@@ -139,7 +139,7 @@ export default function AboutPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <div className="text-white font-semibold text-xl mb-2">Boston, MA</div>
+                  <div className="text-white font-semibold text-xl mb-2">Tokyo, Japan</div>
                   <div className="text-white/70 text-base">Primary base</div>
                 </div>
                 <div className="card rounded-2xl p-8 hover:bg-white/[0.06] transition">

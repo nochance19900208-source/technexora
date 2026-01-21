@@ -124,7 +124,8 @@ export default function PrivacyPolicyPage() {
                     info@technexora.net
                   </a>
                   <p className="text-white font-semibold mb-2 mt-4">Location:</p>
-                  <p className="text-gray-300">Boston, MA, United States</p>
+                  <p className="text-gray-300">Tokyo, Japan<br />
+                  <span>1-14-2 Tamagawa, Setagaya City, Tokyo 158-0094</span></p>
                 </div>
               </section>
 

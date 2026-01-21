@@ -118,7 +118,8 @@ export default function ContactPage() {
 
                 <div className="card rounded-2xl p-6">
                   <div className="text-white font-semibold mb-2">Location</div>
-                  <div className="text-white/70">Boston, MA</div>
+                  <div className="text-white/70">Tokyo, Japan</div>
+                  <div className="text-white/70 mt-1">1-14-2 Tamagawa, Setagaya City, Tokyo 158-0094</div>
                   <div className="text-white/70 mt-1">Serving clients worldwide</div>
                 </div>
 
