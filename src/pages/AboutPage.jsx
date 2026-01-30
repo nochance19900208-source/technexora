@@ -8,7 +8,7 @@ import { IMAGES } from "../utils/constants.js";
 // Team members - Japanese team
 const teamMembers = [
   {
-    name: "Andrew Collins",
+    name: "Daniel Akira",
     role: "CEO / Co-Founder",
     image: "/members/CEO.png"
   },
