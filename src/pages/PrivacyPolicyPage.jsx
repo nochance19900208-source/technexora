@@ -131,7 +131,7 @@ export default function PrivacyPolicyPage() {
 
             </div>
           </div>
-        </div>
+        </div> 
       </Section>
 
       {/* Back to Home CTA */}
